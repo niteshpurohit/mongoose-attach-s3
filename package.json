@@ -1,0 +1,37 @@
+{
+    "name": "mongoose-attach-s3",
+    "version": "1.0.0",
+    "description": "mongoose-attach StorageProvider that uploads files to Amazon S3",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/niteshpurohit/mongoose-attach-s3"
+    },
+    "keywords": [
+        "mongoose",
+        "attach",
+        "s3",
+        "uploads",
+        "attachments",
+        "files",
+        "private-buckets"
+    ],
+    "author": "Nitesh Purohit <nitesh.purohit.it@gmail.com> (https://www.niteshpurohit.com)",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/niteshpurohit/mongoose-attach-s3/issues"
+    },
+    "homepage": "https://github.com/niteshpurohit/mongoose-attach-s3#readme",
+    "dependencies": {
+        "check-types": "^7.3.0",
+        "knox-s3": "^0.9.3",
+        "path": "^0.12.7",
+        "url": "^0.11.0"
+    },
+    "devDependencies": {
+        "mocha": "^4.0.1"
+    }
+}
